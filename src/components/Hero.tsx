@@ -13,9 +13,9 @@ function Hero() {
                 <div className="lg:pt-4 md:pt-8 pt-5">
                     <motion.h1 
                         className="lg:text-5xl md:text-4xl text-3xl lg:flex lg:justify-center text-center font-medium"
-                        animate={{ opacity: 0, y: 80}}
+                        animate={{ opacity: 0, y: 90}}
                         whileInView={{ opacity: 1, y: 0}}
-                        viewport={{ once: false, amount: 0.3}}
+                        viewport={{ once: false, amount: 0.5}}
                         transition={{ duration: 0.8, ease: "easeOut"}}
                     >
                         Unclock your financial freedom: 

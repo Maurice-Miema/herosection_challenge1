@@ -55,13 +55,13 @@ function Navbar() {
             
             {/* menu responsive */}
             {openMenu && (
-                <div className="fixed inset-0 z-10 bg-black/85 backdrop-blur-sm  px-5 pt-10">
+                <div className="fixed inset-0 z-10 bg-black/85 backdrop-blur-sm  px-5 pt-10 transition delay-150 duration-300 ease-in-out">
                     <div className=" text-white">
                         <button 
                             type="button"
                             onClick={()=> setOpenMenu(false)}
                         >
-                            < IoClose size={30} />
+                            < IoClose size={35} />
                         </button>
                     </div>
                     <ul className=' text-center mt-4 text-white'>
@@ -77,7 +77,7 @@ function Navbar() {
 
                     <div className='gap-4'>
                         <div className="flex justify-center mt-6">
-                            <button className="flex items-center gap-1 md:text-3xl text-xl bg-gradient-to-r from-yellow-500 from-15% via-pink-400 to-85% to-purple-500 px-10 text-white py-2 rounded-4xl ">
+                            <button className="flex items-center gap-1 md:text-3xl text-xl bg-gradient-to-r from-yellow-500 from-15% via-pink-400 to-85% to-purple-500 px-10 text-white py-1 rounded-4xl ">
                                 < CiGlobe size={30}/>
                                 English
                             </button>
@@ -86,7 +86,7 @@ function Navbar() {
                         <div className="flex justify-center mt-5">
                             <button 
                                 type='button'
-                                className='flex items-center gap-1 md:text-3xl text-xl bg-gradient-to-r from-yellow-500 from-15% via-pink-400 to-85% to-purple-500 px-10 text-white py-2 rounded-4xl '
+                                className='flex items-center gap-1 md:text-3xl text-xl bg-gradient-to-r from-yellow-500 from-15% via-pink-400 to-85% to-purple-500 px-10 text-white py-1 rounded-4xl '
                             >
                                 Repeat Loan
                             </button>
