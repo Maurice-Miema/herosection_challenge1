@@ -19,7 +19,7 @@ function Img() {
                 animate={{ x: ["0%", "-50%"] }}
                 transition={{
                     repeat: Infinity,
-                    duration: 60,
+                    duration: 70,
                     ease: "linear",
                 }}
             >

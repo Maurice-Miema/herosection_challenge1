@@ -1,4 +1,5 @@
 import Navbar from "./Navbar"
+import { motion } from "motion/react";
 import Img from "./Img";
 import { TiStar } from "react-icons/ti";
 import Icones from "./Icones";
@@ -10,7 +11,15 @@ function Hero() {
                 < Navbar />
 
                 <div className="lg:pt-4 md:pt-8 pt-5">
-                    <h1 className="lg:text-5xl md:text-4xl text-3xl lg:flex lg:justify-center text-center font-medium">Unclock your financial freedom: </h1>
+                    <motion.h1 
+                        className="lg:text-5xl md:text-4xl text-3xl lg:flex lg:justify-center text-center font-medium"
+                        animate={{ opacity: 0, y: 80}}
+                        whileInView={{ opacity: 1, y: 0}}
+                        viewport={{ once: false, amount: 0.3}}
+                        transition={{ duration: 0.8, ease: "easeOut"}}
+                    >
+                        Unclock your financial freedom: 
+                    </motion.h1>
                     <h1 className="lg:flex lg:justify-center text-center md:text-4xl text-2xl pt-4 font-medium bg-gradient-to-r from-yellow-500 from-25% via-pink-400 to-70% to-purple-500 bg-clip-text text-transparent">Get your first loan for free !</h1>
                     <p className="pt-4 lg:flex lg:justify-center items-center text-center font-semibold text-sm md:px-0 px-4">
                         <strong className="mr-2 md:text-xl text-md">

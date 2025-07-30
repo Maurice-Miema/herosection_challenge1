@@ -38,7 +38,7 @@ function Icones() {
                 animate={{ x: ["0%", "-50%"] }}
                 transition={{
                     repeat: Infinity,
-                    duration: 50,
+                    duration: 30,
                     ease: "linear",
                 }}
             >
