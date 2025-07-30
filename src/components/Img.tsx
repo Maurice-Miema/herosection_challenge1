@@ -2,14 +2,14 @@ import { motion } from "framer-motion";
 
 function Img() { 
     const images = [
-        {"img": "./src/assets/img1.png" },
-        {"img": "./src/assets/img2.png" },
-        {"img": "./src/assets/img3.png" },
-        {"img": "./src/assets/img4.png" },
-        {"img": "./src/assets/img5.png" },
-        {"img": "./src/assets/img6.png" },
-        {"img": "./src/assets/img7.png" },
-        {"img": "./src/assets/img8.png" },
+        {"img": "/images/img1.png" },
+        {"img": "/images/img2.png" },
+        {"img": "/images/img3.png" },
+        {"img": "/images/img4.png" },
+        {"img": "/images/img5.png" },
+        {"img": "/images/img6.png" },
+        {"img": "/images/img7.png" },
+        {"img": "/images/img8.png" },
     ]
 
     return (
